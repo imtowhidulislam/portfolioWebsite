@@ -1,0 +1,7 @@
+export {default as Header} from "../components/Header"
+export {default as Worked} from "../components/Worked"
+export {default as About} from "../components/About"
+export {default as Project} from "../components/Project"
+export {default as AllProject} from "../components/allProject"
+export {default as Contact} from "../components/Contact"
+export {default as footer} from "../components/Footer"

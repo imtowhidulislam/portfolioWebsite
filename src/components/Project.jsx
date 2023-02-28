@@ -4,14 +4,14 @@ import {FaExternalLinkAlt} from "react-icons/fa";
 
 const Project = () => {
   return (
-    <div>
+    <div className=''>
         <div className='pb-12 overflow-x-hidden'>
             <h2 className="title text-3xl text-gray-100 capitalize font-bold">
                 <span className='text-2xl text-accentClr font-semibold mr-2 font-mono'>03.</span>
                 some things i've built
             </h2>
         </div>
-        <div className='bg-cardBg p-8 rounded-md'>
+        <div className='bg-cardBg p-8 rounded-md duration-300 ease-out translate-y-0 hover:-translate-y-3 border-2 border-gray-600 hover:border-accentClr'>
             <p className='text-base font-semibold mb-2 text-accentClr font-serif capitalize'>Featured Project</p>
             <h2 className='text-3xl font-semibold mb-6 text-gray-100 capitalize'>Towhid</h2>
             <article className='text-base font-semibold mb-6 text-grayTextDark capitalize'>Fast-forward to today,At an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</article>

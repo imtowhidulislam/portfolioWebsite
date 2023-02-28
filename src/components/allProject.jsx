@@ -9,25 +9,87 @@ const AllProject = () => {
             <h2 className='text-2xl mb-4 font-bold text-textShadeOne  capitalize'>other noteworthy projects</h2>
             <p className='text-base font-mono text-accentClr capitalize'>view the archive</p>
         </div>
-        <div className='bg-cardBg p-8 rounded-md'>
-            <div className='flex gap-8 items-center mb-8 justify-between'>
-                <div className='text-6xl text-grayTextLight cursor-pointer hover:text-accentClr transition-colors duration-200 ease-out'>
-                    <FiFolder />
+        <div className='grid grid-cols-fluidLayoutCardMd lg:grid-cols-fluidLayoutCardLg gap-8'>
+            <div className='bg-cardBg p-8 rounded-md duration-300 ease-out translate-y-0 hover:-translate-y-3 border-2 border-gray-600 hover:border-accentClr'>
+                <div className='flex gap-8 items-center mb-8 justify-between'>
+                    <div className='text-6xl text-grayTextLight cursor-pointer hover:text-accentClr transition-colors duration-200 ease-out'>
+                        <FiFolder />
+                    </div>
+                    <div className='text-xl text-grayTextLight cursor-pointer hover:text-accentClr transition-colors duration-200 ease-out'>
+                        <FaExternalLinkAlt />
+                    </div>
                 </div>
-                <div className='text-xl text-grayTextLight cursor-pointer hover:text-accentClr transition-colors duration-200 ease-out'>
-                    <FaExternalLinkAlt />
+                <h2 className='text-3xl font-semibold mb-6 text-gray-100 capitalize hover:text-accentClr transition-colors duration-200 ease-in-out cursor-pointer'>building a headless mobile app CMS From scaratch</h2>
+                <article className='text-base font-semibold mb-6 text-grayTextDark capitalize'>Fast-forward to today,At an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</article>
+                <div className='grid grid-cols-fluidLayout place-items-start gap-4 text-xl font-semibold text-grayTextLight'>
+                    <li>Vs code</li>
+                    <li>sublime text</li>
+                    <li>atom</li>
+                    <li>iTern2</li>
+                    <li>hyper</li>
                 </div>
+                
             </div>
-            <h2 className='text-3xl font-semibold mb-6 text-gray-100 capitalize hover:text-accentClr transition-colors duration-200 ease-in-out cursor-pointer'>building a headless mobile app CMS From scaratch</h2>
-            <article className='text-base font-semibold mb-6 text-grayTextDark capitalize'>Fast-forward to today,At an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</article>
-            <div className='flex gap-3 text-xl font-semibold text-grayTextLight'>
-                <li>Vs code</li>
-                <li>sublime text</li>
-                <li>atom</li>
-                <li>iTern2</li>
-                <li>hyper</li>
+            <div className='bg-cardBg p-8 rounded-md duration-300 ease-out translate-y-0 hover:-translate-y-3 border-2 border-gray-600 hover:border-accentClr'>
+                <div className='flex gap-8 items-center mb-8 justify-between'>
+                    <div className='text-6xl text-grayTextLight cursor-pointer hover:text-accentClr transition-colors duration-200 ease-out'>
+                        <FiFolder />
+                    </div>
+                    <div className='text-xl text-grayTextLight cursor-pointer hover:text-accentClr transition-colors duration-200 ease-out'>
+                        <FaExternalLinkAlt />
+                    </div>
+                </div>
+                <h2 className='text-3xl font-semibold mb-6 text-gray-100 capitalize hover:text-accentClr transition-colors duration-200 ease-in-out cursor-pointer'>building a headless mobile app CMS From scaratch</h2>
+                <article className='text-base font-semibold mb-6 text-grayTextDark capitalize'>Fast-forward to today,At an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</article>
+                <div className='grid grid-cols-fluidLayout place-items-start gap-4 text-xl font-semibold text-grayTextLight'>
+                    <li>Vs code</li>
+                    <li>sublime text</li>
+                    <li>atom</li>
+                    <li>iTern2</li>
+                    <li>hyper</li>
+                </div>
+                
             </div>
-            
+            <div className='bg-cardBg p-8 rounded-md duration-300 ease-out translate-y-0 hover:-translate-y-3 border-2 border-gray-600 hover:border-accentClr'>
+                <div className='flex gap-8 items-center mb-8 justify-between'>
+                    <div className='text-6xl text-grayTextLight cursor-pointer hover:text-accentClr transition-colors duration-200 ease-out'>
+                        <FiFolder />
+                    </div>
+                    <div className='text-xl text-grayTextLight cursor-pointer hover:text-accentClr transition-colors duration-200 ease-out'>
+                        <FaExternalLinkAlt />
+                    </div>
+                </div>
+                <h2 className='text-3xl font-semibold mb-6 text-gray-100 capitalize hover:text-accentClr transition-colors duration-200 ease-in-out cursor-pointer'>building a headless mobile app CMS From scaratch</h2>
+                <article className='text-base font-semibold mb-6 text-grayTextDark capitalize'>Fast-forward to today,At an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</article>
+                <div className='grid grid-cols-fluidLayout place-items-start gap-4 text-xl font-semibold text-grayTextLight'>
+                    <li>Vs code</li>
+                    <li>sublime text</li>
+                    <li>atom</li>
+                    <li>iTern2</li>
+                    <li>hyper</li>
+                </div>
+                
+            </div>
+            <div className='bg-cardBg p-8 rounded-md duration-300 ease-out translate-y-0 hover:-translate-y-3 border-2 border-gray-600 hover:border-accentClr'>
+                <div className='flex gap-8 items-center mb-8 justify-between'>
+                    <div className='text-6xl text-grayTextLight cursor-pointer hover:text-accentClr transition-colors duration-200 ease-out'>
+                        <FiFolder />
+                    </div>
+                    <div className='text-xl text-grayTextLight cursor-pointer hover:text-accentClr transition-colors duration-200 ease-out'>
+                        <FaExternalLinkAlt />
+                    </div>
+                </div>
+                <h2 className='text-3xl font-semibold mb-6 text-gray-100 capitalize hover:text-accentClr transition-colors duration-200 ease-in-out cursor-pointer'>building a headless mobile app CMS From scaratch</h2>
+                <article className='text-base font-semibold mb-6 text-grayTextDark capitalize'>Fast-forward to today,At an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</article>
+                <div className='grid grid-cols-fluidLayout place-items-start gap-4 text-xl font-semibold text-grayTextLight'>
+                    <li>Vs code</li>
+                    <li>sublime text</li>
+                    <li>atom</li>
+                    <li>iTern2</li>
+                    <li>hyper</li>
+                </div>
+                
+            </div>
         </div>
         <div className='grid place-items-center mt-20'>
             <button type='button' className='capitalize text-xl cursor-pointer py-4 px-12 rounded-md transition-colors duration-300 ease-in text-accentClr border-2 border-accentClr bg-transparent hover:bg-[#1ec4da80]' >show more</button>

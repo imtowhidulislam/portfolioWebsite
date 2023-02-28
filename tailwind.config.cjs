@@ -13,7 +13,11 @@ module.exports = {
         "textShadeTwo" : "#e8e8e8",
       },
       gridTemplateColumns : {
-        "fluidLayout" : "repeat(auto-fit,min-max(20rem,1fr))",
+        "fluidLayout" : "repeat(auto-fit,minmax(6rem,1fr))",
+        "fluidLayout1" : 'repeat(auto-fit, minmax(3rem, 1fr))',
+        "fluidLayoutCardLg" : 'repeat(auto-fit, minmax(26rem, 1fr))',
+        "fluidLayoutCardMd" : 'repeat(auto-fit, minmax(20rem, 1fr))',
+        "fluidLayoutAbout" : 'repeat(auto-fit, minmax(15rem, 1fr))',
       }
     },
   },

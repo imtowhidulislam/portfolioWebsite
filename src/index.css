@@ -87,4 +87,54 @@ li,a{
 /* !! About Section End */
 
 /* !! Skills Section Start */
+
 /* !! Skills Section End */
+
+/* ** Navbar Section Start */
+  .mob-nav{
+    animation: mob-nav 300ms ease-in-out 1 forwards;
+    transition: animation 300ms ease-in-out,opacity 300ms ease-in-out;
+  }
+  @keyframes mob-nav {
+    0%{
+      transform:translateX(100%);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+  .mob-nav-close {
+    animation: mob-nav-close 300ms ease-in-out 1 backwards;
+    transition: animation 300ms ease-in-out,opacity 300ms ease-in-out;
+  }
+  @keyframes mob-nav-close {
+    from{
+      transform:translateX(0%);
+      opacity: 1;
+    }
+    to{
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+/* ** Navbar Section End */
+/* !! Grid Layout Start */
+.layout{
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+.layout:first-child{
+  grid-column: 1 / 2;
+  border: 2px solid orange;
+}
+.layout:nth-child(3){
+  border: 2px solid pink;
+  grid-column: 3 / 4;
+  width: 100%;
+}
+/* !! Grid Layout End */

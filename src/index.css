@@ -153,3 +153,48 @@ li,a{
     /* right: 10%; */
   }
 /* !! Line Style End */
+
+/* !! Build Card Component Style Start */
+@media (max-width:768px) {
+  .build > :first-child{
+    display: none;
+  }
+}
+@media (min-width:768px) {
+  
+  .build{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    place-items: center;
+  }
+  .build > :first-child{
+    position: relative;
+    width: 100%;
+    grid-row: 1;
+    grid-column: 1 / 8;
+    height: 100%;
+  }
+  .build > :first-child::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: hsla(184, 34%, 48%, 0.404);
+    transition: background-color 200ms ease-in-out;
+    
+  }
+  .build >:first-child:hover::before{
+    background: none;
+  }
+  .build > :first-child > img{
+    width: 100%;
+    height: 100%; 
+    object-fit:  cover;
+  }
+  .build > :last-child{
+    grid-row:  1;
+    grid-column: 7 / 13;
+    margin-block: 3rem;
+  }
+}
+  /* !! Build Card Component Style End */

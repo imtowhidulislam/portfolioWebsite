@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import BuildComponent from './components/BuildComponent'
 import Footer from './components/Footer'
 import Gmail from './components/Gmail'
 import SocialLInks from './components/SocialLInks'
@@ -25,6 +26,7 @@ function App() {
               <Header />
               <About />
               <Worked />
+              <BuildComponent />
               <Project />
               <AllProject />
               <Contact />

@@ -7,26 +7,34 @@ import { About, AllProject, Contact, Header, Navbar, Project, Worked } from './c
 
 function App() {
   const [count, setCount] = useState(0)
-
+ 
   return (
     <div className="bg-primaryBg">
-      <div className='container'>
-        <Navbar />
-        <div className='layout'>
-          <div>
-            <SocialLInks />
+      <div className=''>
+        <div className='bg-transparent md:bg-cardBg md:drop-shadow-md'>
+          <div className='container'>
+            <Navbar />
           </div>
-          <div>
-            <Header />
-            <About />
-            <Worked />
-            <Project />
-            <AllProject />
-            <Contact />
-            <Footer />
-          </div>
-          <div>
-            <Gmail />
+        </div>
+        <div className='container -z-10'>
+          <div className='layout '>
+            <div className='h-screen hidden md:block'>
+              <SocialLInks />
+            </div>
+            <div>
+              <Header />
+              <About />
+              <Worked />
+              <Project />
+              <AllProject />
+              <Contact />
+              <Footer />
+            </div>
+            <div className='flex justify-center'>
+              <div className='relative hidden md:block'>
+                <Gmail/>
+              </div>
+            </div>
           </div>
         </div>
       </div>
